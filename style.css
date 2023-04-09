@@ -1,0 +1,214 @@
+body {
+    background-image: url(https://cdn.shopify.com/s/files/1/0633/7039/5889/files/bluebell-blogpic.jpg);
+    background-size: cover;
+}
+
+.Cards {
+    margin: 60px;
+
+}
+
+.card {
+    width: 250px;
+    height: 450px;
+    border: 2px solid rgba(108, 70, 4, 0.132);
+    border-radius: 3%;
+    background-color: bisque;
+    float: left;
+}
+
+.card_top {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_top img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.title_card1 h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(128, 78, 4);
+    font-family: cursive;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.description_card1 {
+    font-size: 12px;
+    text-align: justify;
+    margin: 15px;
+    font-family: cursive;
+    padding-bottom: 12px;
+}
+
+.icon_instagram {
+    height: 17px;
+    width: 17px;
+    float: left;
+    border-radius: 50%;
+}
+
+.link_card1 {
+    float: left;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.icon_instagram img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.link_card1 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+}
+
+.link_card1 a:hover {
+    color: rgb(127, 85, 6);
+}
+
+.button_card1 {
+    width: 80px;
+    height: 32px;
+    float: right;
+    margin-right: 15px;
+}
+
+.button_card1 button {
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    font-family: cursive;
+    font-size: 12px;
+    color: rgb(103, 60, 8);
+    background-color: rgb(233, 238, 238);
+    float: right;
+    text-align: center;
+}
+
+.button_card1 button:hover {
+    background-color: rgb(242, 242, 242);
+    color: brown;
+}
+
+hr {
+    border: 0.5px solid rgb(149, 126, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Card number 2 */
+.card2 {
+    width: 300px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.573);
+    float: left;
+    background-image: url(https://e0.pxfuel.com/wallpapers/196/128/desktop-wallpaper-best-green-iphone-11-greeny-thumbnail.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    margin-left: 50px;
+}
+
+.card2_top h1 {
+    color: rgb(240, 235, 241);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.description_card2 {
+    color: rgb(251, 249, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 4px;
+}
+
+/* Card number 3 */
+.card3 {
+    width: 600px;
+    height: 200px;
+    border: 2px solid rgba(5, 155, 152, 0.536);
+    float: left;
+    margin-left: 50px;
+    background-color: bisque;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.p-card3 {
+    width: 390px;
+    height: 200px;
+    float: right;
+    font-size: 15px;
+    background-color: bisque;
+    border-radius: 5%;
+}
+
+.card3-img-left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0;
+    position: fixed;
+    margin-right: 50px;
+    background-color: rgba(127, 255, 212, 0.436);
+    border-radius: 5% 0 0 5%;
+    overflow: hidden;
+}
+
+.card3-img-left img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 34px;
+    border: 3px double yellow;
+}
+
+.project1,
+.project2 {
+    text-decoration: none;
+    color: rgb(0, 179, 24);
+    font-size: 16px;
+}
+
+.project1:hover {
+    color: white;
+}
+
+.project2:hover {
+    color: white;
+}
+
+.button_card3 {
+    float: right;
+    width: 120px;
+    height: 75px;
+}
+
+.button_card3 button {
+    font-size: 16px;
+    width: 85px;
+    height: 35px;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid white;
+}
+
+.button_card3 :hover {
+    background-color: white;
+    font-size: 18px;
+    color: yellowgreen;
+}
